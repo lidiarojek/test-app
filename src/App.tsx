@@ -3,13 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  const handleOpenAlert = () => {
+    alert('Hello React')
+  }
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <button onClick={handleOpenAlert}>Open alert!</button>
         <a
           className="App-link"
           href="https://reactjs.org"
