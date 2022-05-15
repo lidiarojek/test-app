@@ -15,6 +15,14 @@ function App() {
         </p>
         <button onClick={handleOpenAlert}>Open alert!</button>
         <a
+            className="App-link"
+            href="https://github.com/lidiarojek/test-app"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          test-react-project
+        </a>
+        <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
