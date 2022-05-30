@@ -1,0 +1,39 @@
+
+.Navigation {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.Navigation-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navigation-mobile {
+  display: none;
+}
+
+.App-link {
+  margin-right: 10px;
+}
+
+@media (max-width: 996px) {
+  .Navigation {
+    flex-direction: column;
+  }
+
+  .Navigation-links {
+    flex-direction: column;
+  }
+
+  .Navigation-mobile {
+    display: inline;
+  }
+}
